@@ -1,4 +1,4 @@
-# Tensorflow animals classifier using inceptionV3 model
+# Tensorflow animal's classifier using inceptionV3 model
 
 This repo is built for the challenge in video https://www.youtube.com/watch?v=cAICT4Al5Ow by siraj.
 
@@ -8,11 +8,12 @@ Accuracy of the present model is 99%
 
 ##Requirements
 - Tensorflow
+- python
 
 ##Usage
 - Change path(retrain_dir) to tensorflow retrain directory in script "retrain-tensorflow.sh"
-- Run the script retrain-tensorflow.sh
-- Run the label_image script to label the image. python /tf_files/label_image.py <path_to_file>
+- Run the script "retrain-tensorflow.sh"
+- Run the label_image.py python script with argument as path to image. 
 
 
 This script uses pre built model inceptionV3 and retrain tensor flow with new categories of images for prediciton.
